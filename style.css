@@ -1,0 +1,113 @@
+/* background of hero and footer:--cor0 */
+/* hero main text: 48px extra-bold --cor1 */
+/* hero secondary text, header link text: 19px --cor3 */
+/* header logo text: 24px --cor0 */
+/* button color, call to action background color :--cor2 */
+/* information header text: 36px extra-bold --cor0*/
+/* quote section background color: --cor3 */
+/* quote text : 36px light italic --cor0 */
+* {
+    margin: 0;
+}
+:root {
+    --cor0:#1F2937; 
+    --cor1:#F9FAF8;
+    --cor2:#3882f6;
+    --cor3:#E5E7EB;
+}
+
+
+body {
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1A1E20;
+    
+    
+} 
+.conteiner {
+    width: 1000px;
+    margin: auto;
+    margin-top: 0;
+}
+
+.hero{
+    display: flex;
+    background: var(--cor0) ;
+  
+   
+}
+header {
+    display: flex;
+    background: var(--cor0) ;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+.head {
+    display: flex;
+    color: var(--cor1);
+    font-size: 24px;
+}
+.links{
+    display: flex;
+    color: var(--cor3);
+    font-size: 18px;
+    gap: 30px;
+}
+a{
+    color: var(--cor1);
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    background: var(--cor0);
+    justify-content: space-around;
+    padding: 100px;
+    gap: 50px;
+}
+.left-main {
+ max-width: 328px;
+ max-height: 650px;
+}
+.hero-main-text {
+    display: flex;
+    color: var(--cor1);
+    font-size: 48px ;
+    font-weight: bold;
+}
+.hero-text{
+    display: flex;
+    flex-wrap: wrap;
+ color: var(--cor3);
+ 
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+    background: var(--cor1);
+    max-width: 910px;
+    max-height: 650px;
+ 
+}
+button {
+    background: var(--cor2);
+    color: var(--cor1);
+    border-radius: 8px;
+    border: var(--cor1);
+    padding: 5px;
+    width: 95px;
+   
+
+
+}
+footer{
+    display: flex;
+    background-color: var(--cor0);
+}

@@ -187,7 +187,7 @@ button {
 
 .quote {
     display: flex;
-    background: var(--cor3);
+    background-color: var(--cor3);
 
 }
 .quote-body {
@@ -213,7 +213,52 @@ button {
     align-self: flex-end;
 
 }
+.call-action {
+display: flex;
+padding: 100px;
+justify-content: center;
+align-items: center;
+
+
+}
+.call-body {
+    display: flex;
+    justify-content: space-around;
+    width: 750px;
+    border-radius: 5px;
+    padding: 40px;
+    background: var(--cor2);
+
+
+}
+.call-head {
+    display: flex;
+ color: var(--cor1);
+ font-size: 20px;
+ font-weight: lighter;
+}
+.call-text {
+   
+ color: var(--cor3);
+}
+
+.call-button {
+    display: flex;
+    background: var(--cor2);
+    color: var(--cor1);
+    border-radius: 8px;
+    border: 1px solid var(--cor1);
+    padding: 2px;
+    width: 95px;
+    
+
+
+}
 footer{
     display: flex;
     background-color: var(--cor0);
+    color: var(--cor3);
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
